@@ -1,0 +1,128 @@
+libcrypt-blowfish-perl (2.14-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:44:26 +0800
+
+libcrypt-blowfish-perl (2.14-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 2.14
+  * Refresh blowfish_make_bfkey.patch patch for offset
+  * Drop svupgrade.patch patch
+  * Wrap and sort fields in debian/control
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 09 Aug 2013 20:16:11 +0200
+
+libcrypt-blowfish-perl (2.12-2) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * Email change: Ansgar Burchardt -> ansgar@debian.org
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ gregor herrmann ]
+  * Add patch from CPAN RT to fix build failure with Perl 5.18.
+    (Closes: #708467)
+  * debian/copyright: switch formatting to Copyright-Format 1.0.
+    Update license stanzas and years of packaging copyright.
+  * Set Standards-Version to 3.9.4 (no changes).
+  * Use debhelper 9.20120312 to get all hardening flags.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 17 May 2013 20:50:34 +0200
+
+libcrypt-blowfish-perl (2.12-1) unstable; urgency=low
+
+  * New upstream release.
+  * Refresh patch.
+  * Add /me to Uploaders.
+  * Update years of upstream copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 05 Mar 2010 12:38:43 +0100
+
+libcrypt-blowfish-perl (2.10-2) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * debian/control: Added: Vcs-Svn field (source stanza); Vcs-Browser
+    field (source stanza).
+  * debian/control: Added: Homepage field (source stanza).
+  * debian/control: Changed: Maintainer set to Debian Perl Group <pkg-
+    perl-maintainers@lists.alioth.debian.org> (was: Jonathan McDowell
+    <noodles@earth.li>); Jonathan McDowell <noodles@earth.li> moved to
+    Uploaders.
+  * debian/control: Added: ${misc:Depends} to Depends: field.
+  * debian/watch: use dist-based URL.
+
+  [ Ansgar Burchardt ]
+  * Refresh rules for debhelper 7.
+  * No longer install README.
+  * Use source format 3.0 (quilt).
+  * Convert debian/copyright to proposed machine-readable format.
+  * debian/control: Make build-dep on perl unversioned.
+  * debian/control: Add build-dep on libcrypt-cbc-perl for an additional test.
+  * debian/control: Remove duplicate Section, Priority fields from binary
+    package stanza.
+  * Move changes to upstream source to a patch, drop changes to README.
+    + New patch: blowfish_make_bfkey.patch
+  * Bump Standards-Version to 3.8.4.
+  * Add myself to Uploaders.
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Mon, 01 Feb 2010 20:33:06 +0900
+
+libcrypt-blowfish-perl (2.10-1) unstable; urgency=low
+
+  * New upstream release.
+  * Updated Standards-Version to 3.6.2.0 (no changes).
+
+ -- Jonathan McDowell <noodles@earth.li>  Thu, 19 Jan 2006 09:00:44 +0000
+
+libcrypt-blowfish-perl (2.09-5) unstable; urgency=low
+
+  * Add watch file.
+  * Fix blowfish_make_bfkey comments. (closes: #269088)
+  * Add versioned depends on debhelper >= 3.
+  * Updated Standards-Version.
+
+ -- Jonathan McDowell <noodles@earth.li>  Sun, 10 Oct 2004 15:46:44 +0100
+
+libcrypt-blowfish-perl (2.09-4) unstable; urgency=low
+
+  * Change dependancy on Perl to versioned dependancy. (closes: #197474)
+  * Change section to perl.
+
+ -- Jonathan McDowell <noodles@earth.li>  Sun, 15 Jun 2003 18:06:19 +0100
+
+libcrypt-blowfish-perl (2.09-3) unstable; urgency=low
+
+  * Rebuilt for Perl 5.8
+ 
+ -- Jonathan McDowell <noodles@earth.li>  Mon, 26 Aug 2002 22:07:14 +0100
+ 
+libcrypt-blowfish-perl (2.09-2) unstable; urgency=low
+
+  * Moved into main.
+
+ -- Jonathan McDowell <noodles@earth.li>  Wed, 24 Apr 2002 23:31:33 +0100
+
+libcrypt-blowfish-perl (2.09-1) unstable; urgency=low
+
+  * New upstream version.
+  * Updated Standards-Version.
+
+ -- Jonathan McDowell <noodles@earth.li>  Sat, 15 Dec 2001 10:31:57 +0000
+
+libcrypt-blowfish-perl (2.06-2) unstable; urgency=low
+
+  * Change perl dependancy from perl-5.6 to just perl. (closes: Bug#113204)
+  * Updated to follow Perl policy (install as vendor).
+
+ -- Jonathan McDowell <noodles@earth.li>  Sun, 23 Sep 2001 12:13:04 +0000
+
+libcrypt-blowfish-perl (2.06-1) unstable; urgency=low
+
+  * Initial Debianization. (closes: Bug#77240)
+
+ -- Jonathan McDowell <noodles@earth.li>  Thu, 16 Nov 2000 11:32:36 +0000
+
